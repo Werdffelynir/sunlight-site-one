@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import "../../../styles/variables";
+
+
+/*
+.next-button-front {
+  margin-top: -50px;
+  margin-left: -150px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 45px 150px 0px 150px;
+  border-color: $orange-color transparent transparent transparent;
+}
+
+.next-button {
+  margin-top: 65vh;
+  margin-left: -150px;
+  position: absolute;
+
+  width: 0;
+  height: 0;
+  border-style: dashed;
+  border-width: 45px 150px 0px 150px;
+  border-color: $black-color transparent transparent transparent;
+}
+
+
+.next-button-first-front {
+  margin-top: -50px;
+  margin-left: -150px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 45px 150px 0px 150px;
+  border-color: $orange-color transparent transparent transparent;
+}
+
+.next-button-first {
+  margin-top: 80vh;
+  margin-left: -150px;
+  position: absolute;
+
+  width: 0;
+  height: 0;
+  border-style: dashed;
+  border-width: 45px 150px 0px 150px;
+  border-color: $black-color transparent transparent transparent;
+}
+*/
+.next-button-wrapper {
+  display: block;
+}
+
+.next-button-front {
+  margin-top: -50px;
+  margin-left: -150px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 45px 150px 0px 150px;
+  border-color: $orange-color transparent transparent transparent;
+}
+
+.next-button {
+  margin-top: 100px;
+  margin-left: 0px;
+  display: inline-grid;
+  width: 0;
+  height: 0;
+  border-style: dashed;
+  border-width: 45px 150px 0px 150px;
+  border-color: $black-color transparent transparent transparent;
+}
+
+

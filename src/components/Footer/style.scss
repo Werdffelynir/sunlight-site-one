@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import "../../styles/variables";
+
+footer {
+  background-color: $black-color;
+  color: $white-color;
+  min-height: 200px;
+}
+
+.footer-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+}
+.footer-wrap:first-child {
+  width: 100%;
+}
+
+.up-button {
+  background-color: $yellow-color;
+  color: $black-color;
+  font-size: 2em;
+  font-weight: bold;
+}

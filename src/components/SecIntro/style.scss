@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@import "../../styles/variables";
+
+.intro-anime {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.intro-anime-lcub {
+  text-align: right;
+  font-size: 10em;
+}
+
+.intro-anime-text {
+  width: 50%;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: monospace;
+}
+
+.intro-anime-rcub {
+  text-align: left;
+  font-size: 10em;
+}
+
+.intro-text {
+  margin: 0 auto;
+  width: 60%;
+}
+
+

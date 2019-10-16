@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@import "../../../styles/variables";
+
+.menu-complete {
+  background-color: $primary-graphic-color;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+

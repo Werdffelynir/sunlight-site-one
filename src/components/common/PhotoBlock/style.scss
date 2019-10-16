@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@import "../../../styles/variables";
+
+
+.photo-block {
+  width: 100%;
+  height: 100%;
+  //margin-left: 100%;
+  @media (min-width: 600px) and (max-width: 998px) {
+    display: none;
+  }
+}
+
+.photo-element {
+
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  //background-color: $node-bg-color; // $primary-graphic-color;
+  position: absolute;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+
+  img {
+    border-radius: 50%;
+    background-color: $node-bg-color;
+  }
+}
+
+.them-green {
+  background-color: $node-bg-color;
+}
+.them-greenmiddle {
+  background-color: #76af62;
+}
+.them-greenligth {
+  background-color: $node-graphic-color;
+}
+
+.position-top-right {
+  margin-top: -220px;
+  margin-left: 40%;
+}
+
+.position-middle-left {
+  margin-top: -45px;
+  margin-left: -260px;
+}
+.position-bottom-center {
+  margin-top: 230px;
+  margin-left: -0%;
+}
+
+

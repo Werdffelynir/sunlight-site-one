@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+// COLORS
+
+
+$white-color: #ffffff;
+$yellow-color: #f0d91d;
+$orange-color: #d8c20f;
+$blue-color: #039bc6;
+$darkblue-color: #0386ab;
+$black-color: #000000;
+$dark-color: #2b2b2b;
+$gray-color: #3c3f41;
+$graylight-color: #595b5d;
+$green-color: #6bbf43;
+$greendark-color: #3f853f;
+
+$primary-bg-color: $yellow-color;
+$primary-graphic-color: $orange-color;
+$primary-text-color: $black-color;
+$secondary-bg-color: $blue-color;
+$secondary-graphic-color: $darkblue-color;
+$secondary-text-color: $black-color;
+$dark-bg-color: $dark-color;
+$dark-graphic-color: $gray-color;
+$dark-text-color: $white-color;
+$node-bg-color: $greendark-color;
+$node-graphic-color: $green-color;
+$node-text-color: $dark-color;
+
+
+// overwrite
+$primary-color: none;
+$footer-bg-color: $black-color;
+$footer-font-color: $white-color;
+$footer-copyright-bg-color: $black-color;
+$footer-copyright-font-color: $yellow-color;

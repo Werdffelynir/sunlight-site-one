@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@import "../../../styles/variables";
+
+
+.content-block-wrapper {
+  //height: 60vh;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  @media (min-width: 600px) and (max-width: 998px) {
+
+  }
+}
+.content-block {
+  width: 60%;
+}
+
+.content-block-bg {
+  display: inline-block;
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -30px;
+  border: 15px solid $primary-graphic-color;
+  padding: 15px;
+  transform: skew(5deg) rotate(1deg);
+  width: 48%;
+  height: 28%;
+
+  @media (min-width: 600px) and (max-width: 998px) {
+    transform: skew(0deg) rotate(0deg);
+    width: 60%;
+    height: 39%;
+  }
+}
+.dark-them {
+  border: 15px solid $black-color;
+}
+
+.green-them {
+  border: 15px solid $node-bg-color;
+}
+
